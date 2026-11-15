@@ -1,0 +1,13 @@
+{
+  "name": "tidy-notes",
+  "tagline": "Keep plain-text notes organised from the terminal",
+  "description": "tidy-notes sorts and indexes a folder of Markdown notes without any cloud service.",
+  "features": ["Index notes by tag", "Search by keyword", "Works fully offline"],
+  "requirements": ["Python 3.10+"],
+  "install": ["pip install tidy-notes"],
+  "usage": ["tidy-notes index ~/notes", "tidy-notes search budget"],
+  "examples": [{"title": "Find notes tagged #todo", "code": "tidy-notes search --tag todo", "language": "bash"}],
+  "license": "MIT",
+  "license_holder": "Example Org",
+  "year": "2026"
+}
